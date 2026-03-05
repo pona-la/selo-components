@@ -1,5 +1,6 @@
 ---
 import { config } from "../lib/config";
+import Socials from "./Socials.astro";
 ---
 
 <style>
@@ -25,4 +26,5 @@ import { config } from "../lib/config";
   <a href="https://github.com/AcipenserSturio/selo-components">selo</a>
   theme.<br />
   Source code is available on <a href={config.url_github}>GitHub</a>.
+  {config.use_socials && <Socials />}
 </footer>

@@ -31,6 +31,7 @@ const ConfigSchema = z.object({
   url_github: z.string(),
   use_navbar: z.boolean(),
   use_language_toggle: z.boolean(),
+  use_socials: z.boolean().optional().default(false),
 });
 
 export const config = readAndParseJson("./src/config.json", ConfigSchema);
