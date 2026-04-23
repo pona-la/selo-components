@@ -1,35 +1,29 @@
-# Astro Starter Kit: Component Package
+# selo-components
 
-This is a template for an Astro component library. Use this template for writing components to use in multiple projects or publish to NPM.
+This package contains reusable elements for a simple blog-like static site. In use by various [Toki Pona](https://tokipona.net/) projects, such as [Wasona](https://wasona.com), [sin kulupu](https://sin-kulupu.pona.la), [suno pi toki pona](https://suno.pona.la), etc.
 
-```sh
-npm create astro@latest -- --template component
-```
+## Contributing
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/non-html-pages)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/non-html-pages)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/component/devcontainer.json)
+This is a collaborative project brought to you by the Toki Pona community.
 
-## 🚀 Project Structure
+<div align="center">
+  <a href="https://github.com/pona-la/selo-components/graphs/contributors">
+    <img src="https://contrib.rocks/image?columns=9&max=27&repo=pona-la/selo-components" />
+  </a>
+</div>
 
-Inside of your Astro project, you'll see the following folders and files:
+Your help is welcome! Feel free to submit pull requests if you find anything that needs improvement.
 
-```text
-/
-├── index.ts
-├── src
-│   └── MyComponent.astro
-├── tsconfig.json
-├── package.json
-```
+Want to help but you're [new to Github? We can help!](https://github.com/pona-la/.github/blob/main/help/README.md)
 
-The `index.ts` file is the "entry point" for your package. Export your components in `index.ts` to make them importable from your package.
+You can also join the Discord and talk to the maintainers!
 
-## 🧞 Commands
+<div align="center">
+  <a href="https://discord.gg/A3ZPqnHHsy">
+    <img src="https://raw.githubusercontent.com/pona-la/.github/refs/heads/main/assets/pali-pona-badge.svg">
+  </a>
+</div>
 
-All commands are run from the root of the project, from a terminal:
+## License
 
-| Command       | Action                                                                                                                                                                                                                           |
-| :------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `npm link`    | Registers this package locally. Run `npm link my-component-library` in an Astro project to install your components                                                                                                               |
-| `npm publish` | [Publishes](https://docs.npmjs.com/creating-and-publishing-unscoped-public-packages#publishing-unscoped-public-packages) this package to NPM. Requires you to be [logged in](https://docs.npmjs.com/cli/v8/commands/npm-adduser) |
+Code (`/src/`) is licensed under [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
