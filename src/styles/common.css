@@ -6,6 +6,26 @@
     unicode-range: U+F1900-F19FF;
 }
 
+/* Self-hosted body font (replaces the Google Fonts CDN link) so the app
+   renders offline. The .woff2 files are bundled with this package under
+   ./fonts/, so consuming sites get them automatically — the bundler (Vite)
+   resolves these relative URLs and emits the fonts into the site's output.
+   Variable weight. */
+@font-face {
+    font-family: "Nunito";
+    src: url("./fonts/nunito.woff2") format("woff2");
+    font-weight: 200 1000;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Nunito";
+    src: url("./fonts/nunito-italic.woff2") format("woff2");
+    font-weight: 200 1000;
+    font-style: italic;
+    font-display: swap;
+}
+
 :root {
     --font: "nasin-nanpa", "Nunito", "Noto Sans Hebrew", sans-serif;
     --bg: #ffffff;
