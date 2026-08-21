@@ -10,12 +10,20 @@ interface Props {
   date?: Date;
   useRss?: boolean;
   dir?: "auto" | "rtl" | "ltr";
+  lang?: string;
 }
-const { title, description, date, useRss = false, dir = "auto" } = Astro.props;
+const {
+  title,
+  description,
+  date,
+  useRss = false,
+  dir = "auto",
+  lang = "en",
+} = Astro.props;
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang={lang}>
   <head>
     <BaseHead title={title} description={description} useRss={useRss} />
     <slot name="head" />
